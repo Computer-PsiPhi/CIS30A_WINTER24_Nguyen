@@ -1,4 +1,4 @@
-# CIS30A Project - Bob's Music Emporium
+# CIS30A Business Python Program - Bob's Music Emporium
 
 This project simulates online shopping for Bob's Music Emporium - a musical instrument store. The user can browse through available instruments for sale, add them to their cart, remove them, and proceed to checkout by providing their personal information for delivery.
 
