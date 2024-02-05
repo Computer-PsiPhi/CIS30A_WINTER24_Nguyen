@@ -1,6 +1,6 @@
 # CIS30A Project - Bob's Music Emporium
 
-This Python project simulates an online shopping experience for Bob's Music Emporium. Users can browse through available items, add them to their cart, remove items, and proceed to checkout by providing their personal information for delivery.
+This project simulates an online shopping for Bob's Music Emporium. The user can browse through available items, add them to their cart, remove items, and proceed to checkout by providing their personal information for delivery.
 
 ## Prerequisites
 
@@ -9,10 +9,10 @@ This Python project simulates an online shopping experience for Bob's Music Empo
 ## Project Structure
 
 The project consists of the following files:
-- `main.py`: Contains the main function to drive the program.
+- `main.py`: Contains the main function which drives the program.
 - `shoppingcart.py`: Defines the `ShoppingCart` class for managing items in the cart.
-- `utilities.py`: Contains utility functions used throughout the project, including menu display, input validation, and receipt generation.
-- `person.py`: Defines the `Person` class, which represents a generic person with attributes such as complete name, addreess, and contact information.
+- `utilities.py`: Contains utility functions used throughout the project, including menu display, input validation, and receipt generator.
+- `person.py`: Defines the `Person` class, which represents a person with attributes such as complete name, addreess, and contact information.
 - `customer.py`: Defines the `Customer` class, which inherits from the `Person` class and represents a customer with additional attributes like customer number and their
 -  `unique invoice number.
 
@@ -31,14 +31,11 @@ The project consists of the following files:
 - **Receipt Generation**: After successful checkout, a receipt is generated and saved to `receipt.txt`.
 
 
-Thank you for using Bob's Music Emporium shopping simulator!
-
-
 ### ShoppingCart Class
 
-- **Dictionary for Cart Items**: The `ShoppingCart` class manages a dictionary of items added to the cart along with their prices and quantities.
+- **Dictionary for Cart Items**: The `ShoppingCart` class has a dictionary of items that adds to the cart along with their prices and quantities.
 - **Empty Cart Check**: The `isEmpty()` method checks if the shopping cart is empty.
-- **Add Items**: Users can add items to the cart using the `add_item()` method.
+- **Add Items**: add items to the cart using the `add_item()` method.
 - **Remove Items**: Items can be removed from the cart with the `remove_item()` method.
 - **Display Cart**: The `display_cart()` method shows the items in the cart along with their prices and quantities.
 - **Total Calculation**: The `calculate_totals()` method calculates the subtotal, tax, shipping, and grand total for items in the cart.
@@ -53,7 +50,7 @@ Thank you for using Bob's Music Emporium shopping simulator!
 - **Menu Display**: The `show_menu()` function displays available options to the user.
 - **Item Display**: The `show_items()` function lists available items for sale.
 - **Receipt Generation**: The `create_receipt()` function creates a receipt with order details, customer information, and totals.
-- **Delivery Scheduling Widget**: Functions `show_selected_info()` and `get_selected_info()` manage a GUI widget for selecting delivery dates and times.
+- **Delivery Scheduling Widget**: Functions `show_selected_info()` and `get_selected_info()` manage GUI widget for selecting delivery dates and times.
 
 ## Requirements
 
