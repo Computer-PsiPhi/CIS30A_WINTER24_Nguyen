@@ -1,6 +1,6 @@
 # CIS30A Project - Bob's Music Emporium
 
-This project simulates an online shopping for Bob's Music Emporium. The user can browse through available items, add them to their cart, remove items, and proceed to checkout by providing their personal information for delivery.
+This project simulates an online shopping for Bob's Music Emporium - a musical instrument store. The user can browse through available items, add them to their cart, remove items, and proceed to checkout by providing their personal information for delivery.
 
 ## Prerequisites
 
@@ -10,34 +10,34 @@ This project simulates an online shopping for Bob's Music Emporium. The user can
 
 The project consists of the following files:
 - `main.py`: Contains the main function which drives the program.
-- `shoppingcart.py`: Defines the `ShoppingCart` class for managing items in the cart.
-- `utilities.py`: Contains utility functions used throughout the project, including menu display, input validation, and receipt generator.
+- `shoppingcart.py`: Defines the `ShoppingCart` class for handling the items the customer puts in their cart.
+- `utilities.py`: Custom module that contains utility functions used throughout the project, including menu display and receipt generator.
 - `person.py`: Defines the `Person` class, which represents a person with attributes such as complete name, addreess, and contact information.
 - `customer.py`: Defines the `Customer` class, which inherits from the `Person` class and represents a customer with additional attributes like customer number and their
--  `unique invoice number.
+   unique invoice number.
 
 ## Usage
 
 1. Run the `main()` function defined in `main.py`.
-2. Browse items, add them to the cart, and proceed to checkout by providing personal information.
+2. Browse instruments, add them to the cart, and proceed to checkout by providing personal information.
 3. Provide your personal information for delivery when prompted and schedule delivery date and time using the GUI widget.
 4. Once the order is complete, a receipt will be generated and saved to `receipt.txt`.
 
 ## Features
 
-- **Browse Items**: Users can view available items along with their prices.
-- **Add and Remove Items**: Users can add items to their cart and remove them if necessary.
+- **Browse Instruments**: Users can view available instruments for sale along with their prices.
+- **Add and Remove Items**: Users can add instruments to their cart and remove them if necessary.
 - **Checkout and Delivery**: Users can proceed to checkout, providing their personal information for delivery scheduling.
 - **Receipt Generation**: After successful checkout, a receipt is generated and saved to `receipt.txt`.
 
 
 ### ShoppingCart Class
 
-- **Dictionary for Cart Items**: The `ShoppingCart` class has a dictionary of items that adds to the cart along with their prices and quantities.
+- **Dictionary for Cart Items**: The `ShoppingCart` class has a dictionary of instruments that adds to the cart along with their prices and quantities.
 - **Empty Cart Check**: The `isEmpty()` method checks if the shopping cart is empty.
 - **Add Items**: add items to the cart using the `add_item()` method.
 - **Remove Items**: Items can be removed from the cart with the `remove_item()` method.
-- **Display Cart**: The `display_cart()` method shows the items in the cart along with their prices and quantities.
+- **Display Cart**: The `display_cart()` method shows the instruments in the cart along with their prices and quantities.
 - **Total Calculation**: The `calculate_totals()` method calculates the subtotal, tax, shipping, and grand total for items in the cart.
 
 ### Customer Class
@@ -48,7 +48,7 @@ The project consists of the following files:
 ### Utilities Module
 
 - **Menu Display**: The `show_menu()` function displays available options to the user.
-- **Item Display**: The `show_items()` function lists available items for sale.
+- **Item Display**: The `show_items()` function lists available instruments for sale.
 - **Receipt Generation**: The `create_receipt()` function creates a receipt with order details, customer information, and totals.
 - **Delivery Scheduling Widget**: Functions `show_selected_info()` and `get_selected_info()` manage GUI widget for selecting delivery dates and times.
 
