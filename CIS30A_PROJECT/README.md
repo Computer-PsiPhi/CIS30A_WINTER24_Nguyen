@@ -1,6 +1,6 @@
 # CIS30A Project - Bob's Music Emporium
 
-This project simulates an online shopping for Bob's Music Emporium - a musical instrument store. The user can browse through available items, add them to their cart, remove items, and proceed to checkout by providing their personal information for delivery.
+This project simulates online shopping for Bob's Music Emporium - a musical instrument store. The user can browse through available instruments for sale, add them to their cart, remove them, and proceed to checkout by providing their personal information for delivery.
 
 ## Prerequisites
 
@@ -10,7 +10,7 @@ This project simulates an online shopping for Bob's Music Emporium - a musical i
 
 The project consists of the following files:
 - `main.py`: Contains the main function which drives the program.
-- `shoppingcart.py`: Defines the `ShoppingCart` class for handling the items the customer puts in their cart.
+- `shoppingcart.py`: Defines the `ShoppingCart` class for handling the instruments the customer puts in their cart.
 - `utilities.py`: Custom module that contains utility functions used throughout the project, including menu display and receipt generator.
 - `person.py`: Defines the `Person` class, which represents a person with attributes such as complete name, addreess, and contact information.
 - `customer.py`: Defines the `Customer` class, which inherits from the `Person` class and represents a customer with additional attributes like customer number and their
